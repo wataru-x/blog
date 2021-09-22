@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # ブログのタイトル
-title: Japan Azure Monitoring & Integration Support Blog 
+title: Japan Azure Monitoring & Integration Support Blog
 
 # サブタイトル
 subtitle: 日本マイクロソフトの Azure Monitoring と Integration に関するサポート情報のブログです。
@@ -29,7 +29,7 @@ root_tag_generator:
     - Azure Logic Apps
   sub_tag_limit: 20
   sub_tag_sort: 'name' # 未実装
-  
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://jpazmon-integ.github.io/blog/
@@ -52,7 +52,7 @@ deploy:
 
 root: /blog/
 permalink: :title/
-permalink_defaults: 
+permalink_defaults:
 
 language: ja
 timezone: asia/Tokyo
@@ -82,7 +82,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -91,7 +91,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -112,7 +112,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jpazure
+theme: jpazure-asim
 
 feed:
   type: atom
@@ -120,7 +120,7 @@ feed:
   limit: 20
 
 # show disclaimer in all article by default. disableDisclaimer of article's option set true hide.
-# ex) 
+# ex)
 # ---
 # title: Article Title
 # date: 2020-04-30 10:00
