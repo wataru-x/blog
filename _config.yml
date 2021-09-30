@@ -22,12 +22,17 @@ author: Japan Azure Monitoring & Integration Support Team
 # サイドバーにリストアップするタグ名
 root_tag_generator:
   root_tag_names:
-    - Azure Monitor
-    - Azure Log Analytics
-    - Azure Automation
-    - Application Insights
-    - Azure Logic Apps
-  sub_tag_limit: 20
+  - Application Insights
+  - Azure Automation
+  - Azure Log Analytics
+  - Azure Logic Apps
+  - Azure Monitor Essentials
+  - FAQ
+  - How-To
+  - Tips
+  - Troubleshooting
+  - チーム紹介
+  sub_tag_limit: 0
   sub_tag_sort: 'name' # 未実装
 
 # URL
