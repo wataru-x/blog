@@ -91,7 +91,7 @@
       var alt = this.alt;
 
       if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-
+      $(this).wrap('<a data-fancybox="single" data-src="' + this.src + '"></a>');
       //$(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
     });
 
